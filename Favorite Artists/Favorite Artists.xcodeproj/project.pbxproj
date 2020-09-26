@@ -17,6 +17,7 @@
 		E3762E61251ECED400AE5E68 /* NewArtistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3762E60251ECED400AE5E68 /* NewArtistViewController.m */; };
 		E39D0E2C251ED25700DDBE5E /* BRMArtist.m in Sources */ = {isa = PBXBuildFile; fileRef = E39D0E2B251ED25700DDBE5E /* BRMArtist.m */; };
 		E39D0E34251ED45000DDBE5E /* BRMArtist+JSONSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = E39D0E33251ED45000DDBE5E /* BRMArtist+JSONSerialization.m */; };
+		E39D0E39251ED81A00DDBE5E /* BRMArtistController.m in Sources */ = {isa = PBXBuildFile; fileRef = E39D0E38251ED81A00DDBE5E /* BRMArtistController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,8 @@
 		E39D0E2B251ED25700DDBE5E /* BRMArtist.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BRMArtist.m; sourceTree = "<group>"; };
 		E39D0E32251ED45000DDBE5E /* BRMArtist+JSONSerialization.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BRMArtist+JSONSerialization.h"; sourceTree = "<group>"; };
 		E39D0E33251ED45000DDBE5E /* BRMArtist+JSONSerialization.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "BRMArtist+JSONSerialization.m"; sourceTree = "<group>"; };
+		E39D0E37251ED81A00DDBE5E /* BRMArtistController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BRMArtistController.h; sourceTree = "<group>"; };
+		E39D0E38251ED81A00DDBE5E /* BRMArtistController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BRMArtistController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +130,8 @@
 		E3762E69251ECF5B00AE5E68 /* Model Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				E39D0E37251ED81A00DDBE5E /* BRMArtistController.h */,
+				E39D0E38251ED81A00DDBE5E /* BRMArtistController.m */,
 			);
 			path = "Model Controllers";
 			sourceTree = "<group>";
@@ -204,6 +209,7 @@
 				E3762E3F251ECC2000AE5E68 /* AppDelegate.m in Sources */,
 				E39D0E2C251ED25700DDBE5E /* BRMArtist.m in Sources */,
 				E3762E50251ECC2800AE5E68 /* main.m in Sources */,
+				E39D0E39251ED81A00DDBE5E /* BRMArtistController.m in Sources */,
 				E3762E42251ECC2000AE5E68 /* SceneDelegate.m in Sources */,
 				E39D0E34251ED45000DDBE5E /* BRMArtist+JSONSerialization.m in Sources */,
 				E3762E61251ECED400AE5E68 /* NewArtistViewController.m in Sources */,
