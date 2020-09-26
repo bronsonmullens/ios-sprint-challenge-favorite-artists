@@ -13,11 +13,11 @@
 		E3762E4A251ECC2800AE5E68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3762E49251ECC2800AE5E68 /* Assets.xcassets */; };
 		E3762E4D251ECC2800AE5E68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3762E4B251ECC2800AE5E68 /* LaunchScreen.storyboard */; };
 		E3762E50251ECC2800AE5E68 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E3762E4F251ECC2800AE5E68 /* main.m */; };
-		E3762E5D251ECEB800AE5E68 /* ArtistTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3762E5C251ECEB800AE5E68 /* ArtistTableViewController.m */; };
-		E3762E61251ECED400AE5E68 /* NewArtistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3762E60251ECED400AE5E68 /* NewArtistViewController.m */; };
 		E39D0E2C251ED25700DDBE5E /* BRMArtist.m in Sources */ = {isa = PBXBuildFile; fileRef = E39D0E2B251ED25700DDBE5E /* BRMArtist.m */; };
 		E39D0E34251ED45000DDBE5E /* BRMArtist+JSONSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = E39D0E33251ED45000DDBE5E /* BRMArtist+JSONSerialization.m */; };
 		E39D0E39251ED81A00DDBE5E /* BRMArtistController.m in Sources */ = {isa = PBXBuildFile; fileRef = E39D0E38251ED81A00DDBE5E /* BRMArtistController.m */; };
+		E39D0E3F251EDEF900DDBE5E /* BRMArtistsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E39D0E3E251EDEF900DDBE5E /* BRMArtistsTableViewController.m */; };
+		E39D0E43251EDF0C00DDBE5E /* BRMNewArtistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E39D0E42251EDF0C00DDBE5E /* BRMNewArtistViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,16 +31,16 @@
 		E3762E4C251ECC2800AE5E68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E3762E4E251ECC2800AE5E68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E3762E4F251ECC2800AE5E68 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		E3762E5B251ECEB800AE5E68 /* ArtistTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArtistTableViewController.h; sourceTree = "<group>"; };
-		E3762E5C251ECEB800AE5E68 /* ArtistTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArtistTableViewController.m; sourceTree = "<group>"; };
-		E3762E5F251ECED400AE5E68 /* NewArtistViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewArtistViewController.h; sourceTree = "<group>"; };
-		E3762E60251ECED400AE5E68 /* NewArtistViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewArtistViewController.m; sourceTree = "<group>"; };
 		E39D0E2A251ED25700DDBE5E /* BRMArtist.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BRMArtist.h; sourceTree = "<group>"; };
 		E39D0E2B251ED25700DDBE5E /* BRMArtist.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BRMArtist.m; sourceTree = "<group>"; };
 		E39D0E32251ED45000DDBE5E /* BRMArtist+JSONSerialization.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BRMArtist+JSONSerialization.h"; sourceTree = "<group>"; };
 		E39D0E33251ED45000DDBE5E /* BRMArtist+JSONSerialization.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "BRMArtist+JSONSerialization.m"; sourceTree = "<group>"; };
 		E39D0E37251ED81A00DDBE5E /* BRMArtistController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BRMArtistController.h; sourceTree = "<group>"; };
 		E39D0E38251ED81A00DDBE5E /* BRMArtistController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BRMArtistController.m; sourceTree = "<group>"; };
+		E39D0E3D251EDEF900DDBE5E /* BRMArtistsTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BRMArtistsTableViewController.h; sourceTree = "<group>"; };
+		E39D0E3E251EDEF900DDBE5E /* BRMArtistsTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BRMArtistsTableViewController.m; sourceTree = "<group>"; };
+		E39D0E41251EDF0C00DDBE5E /* BRMNewArtistViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BRMNewArtistViewController.h; sourceTree = "<group>"; };
+		E39D0E42251EDF0C00DDBE5E /* BRMNewArtistViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BRMNewArtistViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,8 +77,8 @@
 				E3762E65251ECF3C00AE5E68 /* Resources */,
 				E3762E69251ECF5B00AE5E68 /* Model Controllers */,
 				E3762E68251ECF5300AE5E68 /* Model */,
-				E3762E67251ECF4E00AE5E68 /* Storyboards */,
 				E3762E66251ECF4300AE5E68 /* View Controllers */,
+				E3762E67251ECF4E00AE5E68 /* Storyboards */,
 			);
 			path = "Favorite Artists";
 			sourceTree = "<group>";
@@ -99,10 +99,10 @@
 		E3762E66251ECF4300AE5E68 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				E3762E5F251ECED400AE5E68 /* NewArtistViewController.h */,
-				E3762E60251ECED400AE5E68 /* NewArtistViewController.m */,
-				E3762E5B251ECEB800AE5E68 /* ArtistTableViewController.h */,
-				E3762E5C251ECEB800AE5E68 /* ArtistTableViewController.m */,
+				E39D0E3D251EDEF900DDBE5E /* BRMArtistsTableViewController.h */,
+				E39D0E3E251EDEF900DDBE5E /* BRMArtistsTableViewController.m */,
+				E39D0E41251EDF0C00DDBE5E /* BRMNewArtistViewController.h */,
+				E39D0E42251EDF0C00DDBE5E /* BRMNewArtistViewController.m */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -205,14 +205,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E3762E5D251ECEB800AE5E68 /* ArtistTableViewController.m in Sources */,
+				E39D0E43251EDF0C00DDBE5E /* BRMNewArtistViewController.m in Sources */,
 				E3762E3F251ECC2000AE5E68 /* AppDelegate.m in Sources */,
 				E39D0E2C251ED25700DDBE5E /* BRMArtist.m in Sources */,
 				E3762E50251ECC2800AE5E68 /* main.m in Sources */,
 				E39D0E39251ED81A00DDBE5E /* BRMArtistController.m in Sources */,
 				E3762E42251ECC2000AE5E68 /* SceneDelegate.m in Sources */,
 				E39D0E34251ED45000DDBE5E /* BRMArtist+JSONSerialization.m in Sources */,
-				E3762E61251ECED400AE5E68 /* NewArtistViewController.m in Sources */,
+				E39D0E3F251EDEF900DDBE5E /* BRMArtistsTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

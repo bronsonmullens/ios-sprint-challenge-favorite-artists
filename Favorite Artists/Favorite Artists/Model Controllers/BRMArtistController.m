@@ -9,7 +9,7 @@
 #import "BRMArtist.h"
 
 // baseURL for networking calls
-static NSString *baseURL = @"https://www.theaudiodb.com/api/v1/json/1/search.php";
+static NSString *baseURL = @"https://www.theaudiodb.com/api/v1/json/1/search.php?";
 
 @implementation BRMArtistController
 

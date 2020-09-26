@@ -1,5 +1,5 @@
 //
-//  NewArtistViewController.h
+//  BRMArtistsTableViewController.h
 //  Favorite Artists
 //
 //  Created by Bronson Mullens on 9/25/20.
@@ -9,7 +9,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface NewArtistViewController : UIViewController
+@interface BRMArtistsTableViewController : UITableViewController
 
 @end
 
