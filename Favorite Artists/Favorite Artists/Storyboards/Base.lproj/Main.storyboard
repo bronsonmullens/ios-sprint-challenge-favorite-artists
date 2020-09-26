@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="qRJ-Gq-1dH">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
@@ -51,7 +51,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <searchBar contentMode="redraw" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PC3-dE-MZp">
+                            <searchBar contentMode="redraw" placeholder="Search for your artist here" translatesAutoresizingMaskIntoConstraints="NO" id="PC3-dE-MZp">
                                 <rect key="frame" x="0.0" y="140" width="414" height="56"/>
                                 <textInputTraits key="textInputTraits"/>
                             </searchBar>
@@ -92,6 +92,7 @@
                             <constraint firstItem="PC3-dE-MZp" firstAttribute="top" secondItem="y08-lT-iLB" secondAttribute="top" id="1Xn-SE-06U"/>
                             <constraint firstItem="Jis-Iy-9VX" firstAttribute="leading" secondItem="y08-lT-iLB" secondAttribute="leading" id="5OY-aP-7AV"/>
                             <constraint firstItem="Jis-Iy-9VX" firstAttribute="top" secondItem="PC3-dE-MZp" secondAttribute="bottom" id="Ccd-Cl-oAk"/>
+                            <constraint firstItem="PC3-dE-MZp" firstAttribute="trailing" secondItem="y08-lT-iLB" secondAttribute="trailing" id="Q39-Tj-B06"/>
                             <constraint firstItem="y08-lT-iLB" firstAttribute="trailing" secondItem="Jis-Iy-9VX" secondAttribute="trailing" id="dpb-4D-ibj"/>
                             <constraint firstItem="PC3-dE-MZp" firstAttribute="leading" secondItem="y08-lT-iLB" secondAttribute="leading" id="mnq-51-Uup"/>
                             <constraint firstAttribute="bottom" secondItem="Jis-Iy-9VX" secondAttribute="bottom" id="nOb-Nd-Vui"/>
